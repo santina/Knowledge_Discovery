@@ -1,0 +1,48 @@
+Inputs: 
+drug: efalizumab
+disease: spondylitis
+ distance function: Euclidean
+(score in the original matrix, score in reconstructed matrix) : 
+(0.0 , 0.628878296451)
+number of diseases and drugs to search: 10
+Number of ranks: 42
+======== Drugs that are similar to efalizumab========
+drug IDs: 
+[1191, 1366, 1140, 1285, 1294, 1251, 1387, 1347, 1235, 1022]
+drug names: 
+efalizumab, theophylline, canakinumab, salbutamol, budesonide, montelukast, sulfasalazine, anakinra, natalizumab, salmeterol, 
+
+======== Diseases that are similar to spondylitis========
+Disease IDs: 
+[1340, 1379, 1385, 1450, 1352, 1464, 1346, 1410, 1387, 1359]
+disease names: 
+spondylitis, uveitis, sarcoidosis, pruritus, endotoxemia, leukemia, acute lung injury, colitis, lung injury, pulmonary fibrosis, 
+
+======== Associations of those similiar drugs and similar diseases =======
+(drug, disease, original score, reconstructed score)there are 17 pairs: 
+[('natalizumab', 'spondylitis', 3.0, 0.59905015378062654),
+ ('canakinumab', 'spondylitis', 2.0, 0.51022913202018105),
+ ('sulfasalazine', 'spondylitis', 1.0, 0.46720622225925679),
+ ('efalizumab', 'pruritus', 1.0, 0.45395612668663671),
+ ('anakinra', 'spondylitis', 6.0, 0.44953931590752338),
+ ('natalizumab', 'leukemia', 1.0, 0.42569295306140537),
+ ('anakinra', 'uveitis', 1.0, 0.39338411356683795),
+ ('efalizumab', 'sarcoidosis', 1.0, 0.36735610588940498),
+ ('theophylline', 'sarcoidosis', 1.0, 0.36141122686029015),
+ ('natalizumab', 'colitis', 1.0, 0.35290828034830862),
+ ('montelukast', 'lung injury', 1.0, 0.29404836122924094),
+ ('budesonide', 'colitis', 1.0, 0.28807538643752656),
+ ('salbutamol', 'acute lung injury', 1.0, 0.26628495008801306),
+ ('sulfasalazine', 'colitis', 6.0, 0.25691531936827022),
+ ('salbutamol', 'lung injury', 2.0, 0.24152952726271518),
+ ('sulfasalazine', 'pulmonary fibrosis', 1.0, 0.20355728588737079),
+ ('salmeterol', 'lung injury', 1.0, 0.17534638506613026)]
+
+======== Associations containing our disease and drug of interest  ========
+there are 6 pairs: 
+[('natalizumab', 'spondylitis', 3.0, 0.59905015378062654),
+ ('canakinumab', 'spondylitis', 2.0, 0.51022913202018105),
+ ('sulfasalazine', 'spondylitis', 1.0, 0.46720622225925679),
+ ('efalizumab', 'pruritus', 1.0, 0.45395612668663671),
+ ('anakinra', 'spondylitis', 6.0, 0.44953931590752338),
+ ('efalizumab', 'sarcoidosis', 1.0, 0.36735610588940498)]

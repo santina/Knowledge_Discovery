@@ -1,0 +1,91 @@
+Inputs: 
+drug: chloroquine
+disease: anemia
+ distance function: Euclidean
+(score in the original matrix, score in reconstructed matrix) : 
+(0.0 , 70.420587871)
+number of diseases and drugs to search: 10
+Number of ranks: 8
+======== Drugs that are similar to chloroquine========
+drug IDs: 
+[1482, 1412, 1554, 1561, 1429, 1290, 1375, 1435, 713, 1530]
+drug names: 
+chloroquine, quinine, zinc, iron, praziquantel, mefloquine, ivermectin, gentamicin, puromycin, doxycycline, 
+
+======== Diseases that are similar to anemia========
+Disease IDs: 
+[1482, 1182, 1513, 1520, 1130, 1478, 1501, 920, 1461, 1503]
+disease names: 
+anemia, iron overload, disease, infection, schistosomiasis, tuberculosis, fever, onchocerciasis, psoriasis, diseases, 
+
+======== Associations of those similiar drugs and similar diseases =======
+(drug, disease, original score, reconstructed score)there are 56 pairs: 
+[('iron', 'infection', 153.0, 167.34721827668571),
+ ('iron', 'anemia', 256.0, 104.54990894670321),
+ ('chloroquine', 'infection', 40.0, 92.83356185748687),
+ ('gentamicin', 'infection', 127.0, 47.902736091801984),
+ ('iron', 'disease', 32.0, 44.161234931289719),
+ ('iron', 'iron overload', 119.0, 42.864361635841213),
+ ('quinine', 'infection', 6.0, 40.574818983626201),
+ ('zinc', 'infection', 27.0, 39.799067518964208),
+ ('puromycin', 'infection', 110.0, 38.192692818325227),
+ ('praziquantel', 'infection', 55.0, 35.1294293943672),
+ ('doxycycline', 'infection', 57.0, 33.220118688361289),
+ ('ivermectin', 'infection', 48.0, 32.165146174862123),
+ ('zinc', 'anemia', 27.0, 24.277298585751335),
+ ('iron', 'schistosomiasis', 5.0, 23.92387134658588),
+ ('iron', 'tuberculosis', 10.0, 23.849790149777107),
+ ('iron', 'fever', 5.0, 23.57379300613395),
+ ('praziquantel', 'anemia', 1.0, 22.281582798883854),
+ ('iron', 'psoriasis', 2.0, 22.098711209345211),
+ ('mefloquine', 'infection', 12.0, 19.565957694427908),
+ ('chloroquine', 'disease', 6.0, 17.791443240658129),
+ ('iron', 'diseases', 24.0, 16.029628162189333),
+ ('mefloquine', 'anemia', 1.0, 14.586548297077355),
+ ('chloroquine', 'fever', 29.0, 14.017366489078027),
+ ('zinc', 'disease', 15.0, 13.473959538369153),
+ ('gentamicin', 'disease', 3.0, 13.469921963327748),
+ ('chloroquine', 'tuberculosis', 1.0, 12.774849898108638),
+ ('doxycycline', 'disease', 12.0, 10.078668398782611),
+ ('zinc', 'iron overload', 5.0, 9.4942979595570218),
+ ('praziquantel', 'disease', 5.0, 9.3783346302124571),
+ ('ivermectin', 'disease', 5.0, 8.2528989222654676),
+ ('gentamicin', 'fever', 1.0, 7.1691522863368489),
+ ('zinc', 'fever', 12.0, 7.0235672426568652),
+ ('quinine', 'fever', 19.0, 6.5928657666463213),
+ ('chloroquine', 'diseases', 1.0, 6.2913831854963416),
+ ('zinc', 'tuberculosis', 5.0, 6.2622316799992248),
+ ('quinine', 'tuberculosis', 1.0, 5.7488287654486943),
+ ('praziquantel', 'fever', 1.0, 5.5196982794205356),
+ ('praziquantel', 'schistosomiasis', 268.0, 5.5030259956656442),
+ ('praziquantel', 'tuberculosis', 1.0, 5.3834562121084906),
+ ('doxycycline', 'fever', 19.0, 5.3699035310896397),
+ ('zinc', 'psoriasis', 3.0, 5.2629038169062765),
+ ('ivermectin', 'schistosomiasis', 10.0, 4.997025853080773),
+ ('ivermectin', 'fever', 3.0, 4.8993578745679054),
+ ('ivermectin', 'tuberculosis', 3.0, 4.8327682888025736),
+ ('praziquantel', 'onchocerciasis', 7.0, 4.7721952087124508),
+ ('gentamicin', 'diseases', 3.0, 4.5211767448562439),
+ ('ivermectin', 'onchocerciasis', 250.0, 4.3641913901285241),
+ ('doxycycline', 'onchocerciasis', 33.0, 4.110255503383061),
+ ('zinc', 'diseases', 7.0, 4.0516546855590976),
+ ('mefloquine', 'schistosomiasis', 2.0, 3.8332753905258423),
+ ('doxycycline', 'diseases', 1.0, 3.1550512009306622),
+ ('mefloquine', 'fever', 2.0, 3.0232822346042827),
+ ('ivermectin', 'diseases', 5.0, 2.7640094777620932),
+ ('mefloquine', 'tuberculosis', 1.0, 2.753943202475956),
+ ('quinine', 'diseases', 1.0, 2.6171475984637631),
+ ('chloroquine', 'psoriasis', 1.0, 2.1421264915604796)]
+
+======== Associations containing our disease and drug of interest  ========
+there are 10 pairs: 
+[('iron', 'anemia', 256.0, 104.54990894670321),
+ ('chloroquine', 'infection', 40.0, 92.83356185748687),
+ ('zinc', 'anemia', 27.0, 24.277298585751335),
+ ('praziquantel', 'anemia', 1.0, 22.281582798883854),
+ ('chloroquine', 'disease', 6.0, 17.791443240658129),
+ ('mefloquine', 'anemia', 1.0, 14.586548297077355),
+ ('chloroquine', 'fever', 29.0, 14.017366489078027),
+ ('chloroquine', 'tuberculosis', 1.0, 12.774849898108638),
+ ('chloroquine', 'diseases', 1.0, 6.2913831854963416),
+ ('chloroquine', 'psoriasis', 1.0, 2.1421264915604796)]
